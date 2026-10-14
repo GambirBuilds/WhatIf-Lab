@@ -94,42 +94,6 @@ Production output files will be compiled into the `dist/` directory.
 
 ---
 
-## ☁️ Deploying to Vercel
-
-WhatIf Lab is designed for zero-config production deployment on Vercel:
-
-### Option A: Via Vercel Web Dashboard (Recommended)
-1. Push your code to your GitHub / GitLab / Bitbucket repository.
-2. Go to [vercel.com](https://vercel.com) and click **"Add New Project"**.
-3. Import your repository.
-4. Vercel automatically detects Vite:
-   - **Framework Preset:** Vite
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-   - **Install Command:** `npm install`
-5. Click **"Deploy"**. The site will be live in seconds.
-
-### Option B: Via Vercel CLI
-```bash
-npm i -g vercel
-vercel login
-vercel
-```
-When prompted:
-- Set up and deploy: **Yes**
-- Which scope: Select your account
-- Link to existing project: **No**
-- What's your project's name: **whatif-lab**
-- In which directory is your code located: `./`
-- Want to modify these settings: **No** (Vite defaults are pre-configured)
-
-For production deployment:
-```bash
-vercel --prod
-```
-
----
-
 ## 📜 Scientific & Ethical Disclosures
 
 Calculated simulation results are transparent mathematical approximations designed for conceptual exploration and decision analysis. They do not constitute personalized financial, legal, medical, or investment advice.
