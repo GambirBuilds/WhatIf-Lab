@@ -1,0 +1,6 @@
+{
+  "name": "WhatIf Lab",
+  "description": "Interactive simulation platform to explore hypothetical situations, test variables, compare scenarios, and visualize calculated outcomes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
